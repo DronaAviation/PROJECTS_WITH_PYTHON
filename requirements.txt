@@ -1,0 +1,8 @@
+plutocontrol
+inputs
+keyboard
+evdev
+pynput
+pygame
+vosk
+pyaudio
