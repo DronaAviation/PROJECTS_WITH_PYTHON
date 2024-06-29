@@ -1,0 +1,6 @@
+plutocontrol
+plutocam
+numpy
+opencv-python
+Flask
+cvzone
