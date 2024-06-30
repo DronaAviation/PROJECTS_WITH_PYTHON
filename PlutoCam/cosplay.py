@@ -24,7 +24,7 @@ mask_img = cv2.imread('ironman.png', cv2.IMREAD_UNCHANGED)
 #mask_img = cv2.imread('spiderman.png', cv2.IMREAD_UNCHANGED)
 
 
-cap = cv2.VideoCapture(0)  # Change to 0 or 1 if 2 doesn't work
+cap = cv2.VideoCapture("http://127.0.0.1:5000/video_feed")
 
 detector = FaceMeshDetector(staticMode=False, maxFaces=2, minDetectionCon=0.5, minTrackCon=0.5)
 
