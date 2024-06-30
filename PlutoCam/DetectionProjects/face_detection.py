@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-import pylwdrone
+import plutocam
 import ffmpeg  # This is from ffmpeg-python
 import sys
 
