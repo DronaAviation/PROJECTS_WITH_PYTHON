@@ -18,9 +18,11 @@ pip install opencv-python flask numpy
 ```
 
 ### Step 2: Connect to Pluto Camera
+
 Ensure you are connected to the Pluto camera before proceeding.
 
 ### Step 3: Start the Server
+
 Open a terminal and locate your file run the following command:
 
 ```bash
@@ -29,7 +31,8 @@ python app.py
 This command initiates the live stream from the Pluto camera using plutocam and FFmpeg.
 
 ### Now, you are ready to enjoy live streaming from your Pluto camera! 
-### The video feed from the drone can be accessed via the following URL:
+
+The video feed from the drone can be accessed via the following URL:
 ```bash
 http://127.0.0.1:5000/video_feed
 ```
