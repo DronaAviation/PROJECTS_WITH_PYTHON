@@ -28,9 +28,11 @@ python app.py
 ```
 This command initiates the live stream from the Pluto camera using plutocam and FFmpeg.
 
-## Now, you are ready to enjoy live streaming from your Pluto camera! 
-## The video feed from the drone can be accessed via the following URL:
-## http://127.0.0.1:5000/video_feed
+### Now, you are ready to enjoy live streaming from your Pluto camera! 
+### The video feed from the drone can be accessed via the following URL:
+```bash
+http://127.0.0.1:5000/video_feed
+```
 
 ## Additional Information
 Stopping the Server: Press Ctrl+C in the terminal where the Flask server is running to stop the server.
