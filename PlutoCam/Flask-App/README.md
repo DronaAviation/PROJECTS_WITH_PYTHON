@@ -38,5 +38,5 @@ http://127.0.0.1:5000/video_feed
 ```
 
 ## Additional Information
-Stopping the Server: Press Ctrl+C in the terminal where the Flask server is running to stop the server.
+Stopping the Server: Press Ctrl+C in the terminal where the Flask server is running to stop the server.</br>
 Stopping Video Capture: The video capture process will terminate when the Flask server is stopped.
