@@ -1,6 +1,6 @@
 import cv2
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("http://127.0.0.1:5000/video_feed")
 
 while True:
     _, frame = cap.read()
