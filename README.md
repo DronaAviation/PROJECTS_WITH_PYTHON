@@ -55,7 +55,7 @@ To set up keyboard controls for your Pluto drone, follow these general steps:
      - For Linux/Mac users: Keyboard/linux,mac
 
 2. Run Keyboard Control Script:
-   - Locate the keyboard.py file in the respective directory and run it.
+   - Locate the keyboard_cmd.py file in the respective directory and run it.
 
 ### Specific Instructions:
 
