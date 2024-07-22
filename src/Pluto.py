@@ -152,7 +152,7 @@ class pluto:
         self.commandType = 2
 
     def flip(self):
-        self.increase_height()
+        self.rcThrottle = 1800
         print("flipping")
         self.commandType = 3
 
