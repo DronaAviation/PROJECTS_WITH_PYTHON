@@ -40,6 +40,7 @@ class pluto:
         self.NONE_COMMAND = 0
         self.TAKE_OFF = 1
         self.LAND = 2
+        sel.FLIP = 3
         self.connected = False
         self.cam_connected = False
         self.TCP_IP = '192.168.4.1'
@@ -149,6 +150,11 @@ class pluto:
 
     def land(self):
         self.commandType = 2
+
+    def flip(self):
+        self.increase_height()
+        print("flipping")
+        self.commandType = 3
 
     def rc_values(self):
         return [self.rcRoll, self.rcPitch, self.rcThrottle, self.rcYaw,
