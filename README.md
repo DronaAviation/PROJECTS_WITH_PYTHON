@@ -1,4 +1,4 @@
-# PLUTO_PYTHON_WRAPPER
+# PLUTO_PYTHON_LIBRARY
 
 Pluto can be operated using Python for various tasks. Python is a versatile programming language known for its simplicity and readability.
 
