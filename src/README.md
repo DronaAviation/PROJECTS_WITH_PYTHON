@@ -17,7 +17,7 @@ After installing the package, you can import and use the `Pluto` class in your P
 #### Example 1
 
 ```python
-from plutocontrol import Pluto
+from plutocontrol import pluto
 
 # Create an instance of the Pluto class
 pluto = Pluto()
