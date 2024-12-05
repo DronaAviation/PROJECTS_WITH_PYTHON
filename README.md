@@ -26,22 +26,22 @@ After installing the package, you can import and use the `Pluto` class in your P
 #### Example 1
 
 ```python
-from plutocontrol import Pluto
+from plutocontrol import pluto
 
 # Create an instance of the Pluto class
-pluto = Pluto()
+Pluto = pluto()
 
 # Connect to the drone
-pluto.connect()
+Pluto.connect()
 
 # Arm the drone
-pluto.arm()
+Pluto.arm()
 
 # Disarm the drone
-pluto.disarm()
+Pluto.disarm()
 
 # Disconnect from the drone
-pluto.disconnect()
+Pluto.disconnect()
 ```
 
 
