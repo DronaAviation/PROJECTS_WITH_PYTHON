@@ -20,19 +20,19 @@ After installing the package, you can import and use the `Pluto` class in your P
 from plutocontrol import pluto
 
 # Create an instance of the Pluto class
-pluto = Pluto()
+drone = pluto()
 
 # Connect to the drone
-pluto.connect()
+drone.connect()
 
 # Arm the drone
-pluto.arm()
+drone.arm()
 
 # Disarm the drone
-pluto.disarm()
+drone.disarm()
 
 # Disconnect from the drone
-pluto.disconnect()
+drone.disconnect()
 ```
 
 ## Class and Methods
